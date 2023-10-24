@@ -33,7 +33,16 @@ header {
   padding: 2em 1.5em;
   position: sticky;
   top: -15px;
-  z-index: 1;
+  z-index: 2;
+}
+
+#line {
+  position: relative;
+}
+
+#line img {
+  position: absolute;
+  bottom: -16px;
 }
 
 @media screen and (min-width: 800px) {
@@ -131,6 +140,8 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
+  position: relative;
+  z-index: 1;
 }
 
 p,
@@ -450,10 +461,21 @@ footer a {
   color: blue;
 }
 
-.fa-calendar-alt {
+.blue-btn .fa-calendar-alt {
   color: blue;
 }
 
 .fa-caret-square-up {
   color: purple;
+}
+
+.div-tag {
+  position: relative;
+}
+
+.fa-tag:before {
+  content: "\f02b";
+  position: absolute;
+  top: 6px;
+  right: 6px;
 }
