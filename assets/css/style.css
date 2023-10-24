@@ -6,6 +6,7 @@ body {
   padding: 15px;
   background-image: url("../img/sfondo.png");
   background-position: center center;
+  position: relative;
 }
 
 * {
@@ -486,5 +487,7 @@ footer a {
   }
   #line img {
     bottom: -20px;
+  }
+  #btn1 {
   }
 }
